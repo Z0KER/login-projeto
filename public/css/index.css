@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login {
+    min-height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 950px){
+    .main-login {
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 40px;
+    }
+}
